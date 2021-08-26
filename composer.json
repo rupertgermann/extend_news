@@ -1,0 +1,27 @@
+{
+  "name": "rupertgermann/extend_news",
+  "type": "typo3-cms-extension",
+  "description": "",
+  "homepage": "",
+  "keywords": [
+    "TYPO3",
+    "news",
+    "extension"
+  ],
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [  ],
+  "require": {
+    "typo3/cms-core": ">=9.5.0 <11.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RG\\ExtendNews\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "extend_news"
+    }
+  }
+}
